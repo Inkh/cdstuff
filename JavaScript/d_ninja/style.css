@@ -1,0 +1,18 @@
+*{
+    font-family: sans-serif;
+}
+.wrapper{
+    width:1400px;
+    height:auto;
+}
+button{
+    height:50px;
+    width:300px;
+    font-size: 30px;
+    background-color: orange;
+}
+/*435 x 206*/
+img{
+    width:435px;
+    height:206px;
+}

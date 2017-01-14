@@ -1,0 +1,29 @@
+1. Open Terminal 
+win+r , type in cmd, launch cmd
+
+2. Navigate to your desktop
+cd desktop
+
+3. Create a new directory, call it test 
+md test
+
+4. Make files called index.html, styles.css, commands.txt inside the test directory
+cd test, copy NUL index.html, copy NUL styles.css, copy NUL commands.txt
+
+5. Make a copy of index.html and call it index_2.html
+copy index.html index_2.html
+
+6. Navigate back to your desktop and make another directory, call it 'destination'.
+cd.., md destination
+
+7. Move the index_2.html file to the 'destination' directory.
+cd test, move index_2.html C:\Users\jhwe9\Desktop\destination
+
+8. In the 'test' directory, remove the 'styles.css' file.
+del styles.css
+
+9. Now, check and see what files are in the 'test' and 'destination' directories.
+dir, cd.., cd destination, dir
+
+10. Remove/delete the 'destination' directory.
+rd /s destination, Y on prompt (cmd won't recognize deltree, so found an equivalent)

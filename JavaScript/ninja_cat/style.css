@@ -1,0 +1,13 @@
+*{
+    font-family: sans-serif;
+}
+.wrapper{
+    width:181px;
+    height:auto;
+}
+img{
+    display:block;
+    height:200%;
+    width:200%;
+    margin-bottom: 5px;
+}

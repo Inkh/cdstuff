@@ -1,0 +1,26 @@
+1. Open terminal and navigate to your desktop
+win + r, cmd, cd desktop
+
+2. Create a new folder and call it 'test'
+md test, cd test
+
+3. Create three files, 'index.html' & 'styles.css' & 'aboutMe.txt'
+copy NUL index.html, copy NUL styles.css, copy NUL aboutMe.txt
+
+4. Create your git repository and make an initial commit with a comment
+git init, git add ., git commit -m "my initial commit"
+
+5. Write a small bio of yourself in the aboutMe.txt file, commit the changes with the message 'updated aboutMe'
+git add aboutMe.txt, git commit -m "updated aboutMe"
+
+6. Add your favorite movie to your aboutMe.txt file and commit the changes with the message 'added favorite movie to
+aboutMe'
+git add aboutMe.txt, git commit -m "added favorite movie to aboutMe"
+
+7. View the logs to see your commit history
+git log
+
+8. Revert to your last commit, make changes, and recommit
+git revert -n a4af59a6, git commit -m "revert a4af59a6", (change txt), git add aboutMe.txt,
+git commit -m "re-added favorite movie".
+
